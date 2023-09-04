@@ -82,7 +82,8 @@ export enum SupportedChainIdsV4 {
   Fantom = 250,
   Celo = 42220,
   Avalance = 43114,
-  // Arbitrum = 42161, // soon
+  GaussMainnet = 1777,
+  GILTestnet = 1452,
 }
 
 export const SupportedChainsForV4OrderbookStatusMonitoring = [
@@ -91,7 +92,7 @@ export const SupportedChainsForV4OrderbookStatusMonitoring = [
   SupportedChainIdsV4.PolygonMumbai,
   SupportedChainIdsV4.Mainnet,
   SupportedChainIdsV4.Optimism,
-];
+]; // We may want to see if it is possible to add our chain to the orderbook status monitoring.
 
 export interface INftSwapV4 extends BaseNftSwap {
   signOrder: (

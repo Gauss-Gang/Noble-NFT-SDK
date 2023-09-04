@@ -70,6 +70,8 @@ export enum SupportedChainIdsV3 {
   Polygon = 137,
   PolygonMumbai = 80001,
   Avalanche = 43114,
+  GaussMainnet = 1777,
+  GILTestnet = 1452,
 }
 
 export interface OrderInfoV3 {

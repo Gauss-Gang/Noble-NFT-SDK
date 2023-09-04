@@ -79,5 +79,23 @@
     "multiAssetProxy": "0x0000000000000000000000000000000000000000",
     "forwarder": "0x0000000000000000000000000000000000000000",
     "wrappedNativeToken": null
+  },
+  "1777": {
+    "exchange": "",
+    "erc20Proxy": "",
+    "erc721Proxy": "",
+    "erc1155Proxy": "",
+    "multiAssetProxy": "",
+    "forwarder": "",
+    "wrappedNativeToken": ""
+  },
+  "1452": {
+    "exchange": "",
+    "erc20Proxy": "",
+    "erc721Proxy": "",
+    "erc1155Proxy": "",
+    "multiAssetProxy": "",
+    "forwarder": "",
+    "wrappedNativeToken": ""
   }
 }
